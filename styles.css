@@ -1,0 +1,121 @@
+body, html {
+    margin: 0;
+    padding: 0;
+ 
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body{
+
+    background-color: rgb(246, 246, 246);
+
+}
+
+@font-face {
+    font-family: 'Norse-Bold'; /* Define the font family name */
+    src: url('Norse-Bold.otf') format('truetype'); /* Path to your font file */
+}
+
+  
+.mainDiv{
+
+    display: flex;
+ 
+}
+
+.logoDiv{
+    
+    flex: 1;
+    color: white;
+    font-family: 'Norse-Bold', sans-serif;   background-image: url("Images/nature.jpg");
+    font-size: 6em;
+    
+
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20vh;
+    background-color: rgb(1, 1, 1,0.5);
+
+}
+
+
+#odinText{
+
+    font-family: 'Norse-Bold', sans-serif;
+
+}
+
+.formDiv{
+
+flex: 2;
+display: flex;
+flex-direction: column; /* Stack elements vertically */
+align-items: center; /* Align items horizontally in the center */
+justify-content: center; /* Align items vertically in the center */
+height: 100vh; 
+
+}
+
+
+.formContainer{
+
+    background-color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .2);
+
+}
+
+.formDiv h2{
+
+    padding-left: 3%;
+
+}
+
+form{
+
+    padding-top: 0.5em;
+ 
+    padding-bottom: 2em;
+
+}
+
+.formLeft, .formRight{
+
+    padding-left: 3%;
+    
+}
+
+.formColumns{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.formLeft{
+
+    margin-right: 3%;
+
+}
+
+input[type="submit"] {
+    
+    margin-left: 3%;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 0px solid;
+    background-color: rgb(81, 187, 81);
+   
+}
